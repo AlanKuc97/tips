@@ -7,6 +7,11 @@ Spring Boot: 2.7.1
 Program will return amount of kcal you need every day for trip, stops for sleep,
 approximate duration of trip and optional things.
 
+Endpoint:
+```
+/api/tietoevry/get-tips
+```
+
 Request body example (weather can be 2 tipes: COLD or HOT):
 ```
 {
